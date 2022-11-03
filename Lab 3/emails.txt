@@ -1,6 +1,0 @@
-user@domain.com
-user@domain.co.in
-user1@domain.com
-user.name@domain.com
-user#@domain.co.in
-user@domaincom
