@@ -1,4 +1,4 @@
 public interface Human {
-    public abstract void greeting();
-    public abstract void doWork();
+    public abstract String greeting();
+    public abstract String doWork();
 }

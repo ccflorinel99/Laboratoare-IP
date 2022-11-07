@@ -1,4 +1,6 @@
-public class Student implements Human{
+import java.io.PrintWriter;
+
+public class Student implements Human {
     protected String full_name, acronim_facultate;
     protected int varsta;
     protected int an_de_studiu;
@@ -18,12 +20,12 @@ public class Student implements Human{
         return str;
     }
 
-    public void greeting()
+    public String greeting()
     {
-        System.out.println(this.toString());
+        return this.toString();
     }
-    public void doWork()
+    public String doWork()
     {
-        System.out.println("Sunt " + full_name + " si acum muncesc");
+        return "Sunt " + full_name + " si acum muncesc";
     }
 }
